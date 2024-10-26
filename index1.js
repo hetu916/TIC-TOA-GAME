@@ -25,7 +25,7 @@ boxes.forEach((box) => {
 
     box.addEventListener('click', () => {
 
-        box.innerText = "sandy";
+    
         if (turn0) {//PLAYER O
             box.innerText = 'O';
             turn0 = false;
